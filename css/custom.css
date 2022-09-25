@@ -1,20 +1,30 @@
 @font-face{
     font-family: SanFransisco;
-
+    src: url("../fonts/SANFRANCISCODISPLAY-REGULAR.otf");
 }
 
 *{
+    font-family: SanFransisco;
+}
 
+.header_row-1{
+    background-color: #EA494E;
 }
 
 .header_banner-1 {
-    background-color: #EA494E;
-    font-family: SanFransisco;
+    color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 35px;
     letter-spacing: 0.02em;
-    text-align: left;
-    color: #FFFFFF;
+    height: 60px;
+}
 
+.header_row-2{
+    height: 120px;
+}
+
+.header_banner-2 {
+    color: #FFFFFF;
+    height: 120px;
 }
