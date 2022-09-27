@@ -35,6 +35,32 @@
     background-color: #F9F9F9;
 }
 
+.main_content_1_title{
+    font-size: 72px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.main_content_1_context{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn_explore{
+    background-color: #EA494E;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.demo_travel{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .main_content_1_bg{
     background-image: url("../img/Home1/slide_bg.png");
     height: 75vh;
@@ -80,16 +106,40 @@
     border: none;
 }
 
+.tpd_bg {
+    background-image: url("../img/Home1/tpd_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.main_content_tpd{
+    /*width: 1436px;*/
+    /*height: 866px;*/
+}
+
+.tpd_title{
+    font-size: 54px;
+    font-weight: 600;
+
+}
+
+.tpd_explore{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777777;
+    border: none;
+    background-color: #F9F9F9;
+}
+
+.img-thumbnail{
+
+}
 
 
 
 
-
-
-
-
-
-
+/*End Home1*/
 
 .footer{
     color: #FFFFFF;
