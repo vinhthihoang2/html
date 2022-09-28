@@ -15,7 +15,6 @@
 
     include ('home1.php');
 
-    include ('footer.php');
 ?>
 
 

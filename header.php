@@ -10,8 +10,8 @@
 </head>
 <body>
     <header class="header">
-        <div class="row header_row-1 justify-content-center text-center py-3">
-            <div class="header_banner container-fluid text-capitalize col-6 d-flex justify-content-center align-items-center">easier and more comfortable while on vacation with us</div>
+        <div class="header_row-1 container-fluid text-center py-3">
+            <div class="header_banner text-capitalize d-flex justify-content-center align-items-center">easier and more comfortable while on vacation with us</div>
         </div> <!-- Banner header.-->
 
         <div class="header_row-2 d-flex container justify-content-center py-4 my-2 text-center">
