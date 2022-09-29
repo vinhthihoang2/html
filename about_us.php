@@ -1,20 +1,15 @@
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-<?php
-include ('header.php');
-
-
-?>
-
-
-</body>
-</html>
+<main>
+    <div class="container-fluid about_us_banner_img px-0">
+        <div class="about_us_banner_bg_left"></div>
+        <div class="container">
+            <div class="col-7 text-center mx-auto">
+                <div class="about_us_banner_title">About Us</div>
+                <div class="about_us_banner_context">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque facilisis. Morbi commodo.
+                </div>
+            </div>
+        </div>
+        <div class="about_us_banner_bg_right"></div>
+    </div>
+</main>

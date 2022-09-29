@@ -1,7 +1,7 @@
 <?php
     include ('header.php');
 
-    include ('home1.php');
+    include("about_us.php");
 
     include ('footer.php');
 ?>;
