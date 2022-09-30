@@ -7,6 +7,7 @@
     <title>Index</title>
     <link href="css/custom_home1.css" rel="stylesheet">
     <link href="css/about_us.css" rel="stylesheet">
+    <link href="css/feature.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -21,13 +22,13 @@
         <div class="header_img text-capitalize col-6 d-flex align-items-center"><img src="img/header_img.png"></div>
         <div class="text-capitalize col-6 d-flex justify-content-center align-items-center">
             <div class="header_menu ms-4">
-                <a class="header_menu_selector" href="home1.php">Home</a>
+                <a class="header_menu_selector" href="index.php">Home</a>
                 <a class="header_menu_selector" href="about_us_index.php">About</a>
                 <a href="" class=" header_menu_selector" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Pages<img class="ps-3" src="img/header_media_icon/Stroke-1.png">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <a href="" class="dropdown-item">Feature</a>
+                    <a href="feature_index.php" class="dropdown-item">Feature</a>
                     <a href="" class="dropdown-item">Services</a>
                     <a href="" class="dropdown-item">Services Detail</a>
                     <a href="" class="dropdown-item">Destination</a>
