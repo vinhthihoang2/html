@@ -1,0 +1,33 @@
+.destination_detail_main_banner_img{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/destination_detail/main_banner_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+
+.destination_rvt_img{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.destination_rvt_name{
+    font-size: 24px;
+    font-weight: 600;
+    color: #222222;
+    padding-bottom: 10px;
+}
+.destination_rvt_nation{
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.destination_detail_off_today{
+    background-image: linear-gradient(to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/destination_detail/destination_detail_off_today.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,36 @@
+
+
+.service_main_banner_bg{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/service/service_main_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+.service_os_context{
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.service_quality_title{
+    font-size: 54px;
+    font-weight: 600;
+    color: #222222;
+}
+.service_quality_list{
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+    list-style: none;
+}
+
+.service_off_today{
+    background-image: linear-gradient( to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/service/service_off_today.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}

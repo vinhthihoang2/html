@@ -1,10 +1,11 @@
 
 <main>
-    <div class="container-fluid feature_main_banner_img px-0 d-flex">
+
+    <div class="container-fluid service_detail_main_banner_bg px-0 d-flex">
         <div class="col-3"><img class="img-fluid about_us_banner_bg_left" src="img/about_us/banner_bg_left.png"></div>
 
         <div class="container col-6 d-flex flex-column align-items-center justify-content-center text-center">
-            <div class="about_us_banner_title pb-5">Features</div>
+            <div class="about_us_banner_title pb-5">Services <span style="color: #EA494E;">Detail</span></div>
             <div class="about_us_banner_context col-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque facilisis. Morbi commodo.
             </div>
@@ -13,77 +14,51 @@
         <div class="col-3"><img class="img-fluid about_us_banner_bg_right" src="img/about_us/banner_bg_right.png"></div>
     </div>
 
-    <div style="padding: 150px" class="container-fluid feature_main_content">
+    <div class="container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div>
-                        <div class="feature_main_content_title">Vacation Convinience</div>
-                        <div><img class="img-fluid" src="img/feature/img_1.png"></div>
-                        <div style="padding-bottom: 170px" class="feature_main_content_context">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu. Eget mi dignissim amet amet, fermentum. Porttitor at a, nam massa enim nisl aliquam posuere.
-                        </div>
-                    </div>
-                    <div>
-                        <div class="feature_main_content_title">Available Consumtion</div>
-                        <div><img class="img-fluid" src="img/feature/img_2.png"></div>
-                        <div class="feature_main_content_context">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu. Eget mi dignissim amet amet, fermentum. Porttitor at a, nam massa enim nisl aliquam posuere.
-                        </div>
-                    </div>
+            <div class="row" style="padding: 150px 0;">
+                <div class="col-lg-6 col-md-12">
+                    <div class="car_rental_bg d-flex align-items-start align-items-center justify-content-center"><img class="img-fluid" src="img/service_detail/car_icon_rental.png"></div>
                 </div>
-                <div style="padding-top: 66px" class="col-md-6 col-sm-12">
-                    <div>
-                        <div class="feature_main_content_title">Vacation Convinience</div>
-                        <div><img class="img-fluid" src="img/feature/img_3.png"></div>
-                        <div style="padding-bottom: 170px" class="feature_main_content_context">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu. Eget mi dignissim amet amet, fermentum. Porttitor at a, nam massa enim nisl aliquam posuere.
-                        </div>
-                    </div>
-                    <div>
-                        <div class="feature_main_content_title">Available Consumtion</div>
-                        <div><img class="img-fluid" src="img/feature/img_4.png"></div>
-                        <div class="feature_main_content_context">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu. Eget mi dignissim amet amet, fermentum. Porttitor at a, nam massa enim nisl aliquam posuere.
-                        </div>
+
+                <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+                    <div class="car_rental_content col-10">
+                        <div style="font-size: 54px; font-weight: 600; color: #222222;" class="car_rental_title py-5">Car Rental</div>
+                        <span style="font-size: 18px; font-weight: 400; color: #777777" class="car_rental_context">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu. Eget mi dignissim amet amet, fermentum. Porttitor at</p>
+
+                            <p>Nulla tellus at varius eleifend aliquam. Morbi neque nullam purus at feugiat fusce. Nec adipiscing est, aliquam id amet, eu. Tincidunt vitae eu egestas eu. Augue purus augue tellus tempor, et sit</p>
+
+                            <p>Nulla tellus at varius eleifend aliquam. Morbi neque nullam purus at feugiat fusce. Nec adipiscing est, aliquam id amet, eu. Tincidunt</p>
+                        </span>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid" style="background-color: #E5E5E5; margin: 100px 0 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2 mx-auto text-center my-5">
-                        <img src="img/Home1/trianggle.png">
-                        <div class="icon_context mt-4">Trianggle</div>
-                    </div>
+            <div class="row text-center" style="padding-bottom: 150px">
+                <div style="font-size: 54px; font-weight: 600; color: #222222;">Detail Car</div>
 
-                    <div class="col-2 mx-auto text-center my-5">
-                        <img src="img/Home1/aim_co.png">
-                        <div class="icon_context mt-4">Aim Co</div>
-                    </div>
-
-                    <div class="col-2 mx-auto text-center my-5">
-                        <img src="img/Home1/lookups.png">
-                        <div class="icon_context mt-4">Lookups</div>
-                    </div>
-
-                    <div class="col-2 mx-auto text-center my-5">
-                        <img src="img/Home1/world_tour.png">
-                        <div class="icon_context mt-4">World Tour</div>
-                    </div>
-
-                    <div class="col-2 mx-auto text-center my-5">
-                        <img src="img/Home1/uptravel.png">
-                        <div class="icon_context mt-4">Uptravel</div>
-                    </div>
+                <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div>Max 8 People</div>
+                </div>
+                <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div>Seat Adjustment</div>
+                </div>
+                <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div>AC Available</div>
+                </div>
+                <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div>Mini Wifi</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid feature_off_today d-flex align-items-center">
+    <div class="container-fluid service_detail_off_today d-flex align-items-center">
         <div class="container">
             <div class="d-flex flex-column">
                 <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
@@ -112,7 +87,7 @@
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
-                            <img src="img/feature/wsau_img.png">
+                            <img src="img/service_detail/wsau_img.png">
                             <div class="align-self-center ps-4">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>
@@ -122,7 +97,7 @@
                     <div class="carousel-item" data-bs-interval="2000">
                         <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
-                            <img src="img/feature/wsau_img.png">
+                            <img src="img/service_detail/wsau_img.png">
                             <div class="align-self-center ps-4">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>
@@ -132,7 +107,7 @@
                     <div class="carousel-item">
                         <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
-                            <img src="img/feature/wsau_img.png">
+                            <img src="img/service_detail/wsau_img.png">
                             <div class="align-self-center ps-4">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>

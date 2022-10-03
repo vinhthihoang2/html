@@ -1,0 +1,16 @@
+.package_offer_main_banner_img{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/package_offer/main_banner_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+.package_offer_off_today{
+    background-image: linear-gradient(to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/package_offer/off_today_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: #FFFFFF;
+}

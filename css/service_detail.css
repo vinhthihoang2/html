@@ -1,0 +1,25 @@
+.service_detail_main_banner_bg{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/service_detail/main_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+
+.car_rental_bg{
+    background-image: linear-gradient(to bottom, rgba(26, 26, 26, 0.1), rgba(64, 64, 64, 1)), url("../img/service_detail/car_rental_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 621px;
+}
+
+.service_detail_off_today{
+    background-image: linear-gradient(to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/service_detail/service_detail_off_today.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: #FFFFFF;
+}
