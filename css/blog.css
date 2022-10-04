@@ -1,0 +1,48 @@
+.blog_main_banner_img{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/blog/main_banner_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+
+.blog_main_content{
+    background-image: url("../img/our_gallery/our_gallery_tctm_bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.blog_date{
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+.blog_context{
+    font-size: 34px;
+    font-weight: 600;
+    color: #222222;
+}
+
+
+#page_number{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#page_number:hover{
+    color: #FFFFFF;
+    background-color: #EA494E;
+}
+
+.blog_off_today{
+    background-image: linear-gradient( to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/blog/off_today.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+

@@ -5,6 +5,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
+    <link href="css/custom.css" rel="stylesheet">
     <link href="css/custom_home1.css" rel="stylesheet">
     <link href="css/about_us.css" rel="stylesheet">
     <link href="css/feature.css" rel="stylesheet">
@@ -13,8 +14,9 @@
     <link href="css/destination.css" rel="stylesheet">
     <link href="css/destination_detail.css" rel="stylesheet">
     <link href="css/package_offer.css" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/our_gallery.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -40,7 +42,7 @@
                     <a href="destination_index.php" class="dropdown-item">Destination</a>
                     <a href="destination_detail_index.php" class="dropdown-item">Destination Detail</a>
                     <a href="package_offer_index.php" class="dropdown-item">Package Offer</a>
-                    <a href="gallery_index.php" class="dropdown-item">Our Gallery</a>
+                    <a href="our_gallery_index.php" class="dropdown-item">Our Gallery</a>
                     <a href="blog_index.php" class="dropdown-item">Blog</a>
                     <a href="blog_detail_index.php" class="dropdown-item">Blog Detail</a>
                 </div>

@@ -3,7 +3,7 @@
         <div class="col-3"><img class="img-fluid about_us_banner_bg_left" src="img/about_us/banner_bg_left.png"></div>
 
         <div class="container col-6 d-flex flex-column align-items-center justify-content-center text-center">
-            <div class="about_us_banner_title pb-5">Destination <span style="color: #EA494E">Detail</span></div>
+            <div class="about_us_banner_title pb-5">Package Offer</div>
             <div class="about_us_banner_context col-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque facilisis. Morbi commodo.
             </div>
