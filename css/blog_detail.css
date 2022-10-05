@@ -1,0 +1,31 @@
+.blog_detail_main_banner_img{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/blog_detail/main_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+
+.blog_detail_main_content{
+    background-image: url("../img/blog_detail/main_content_bg.png"), url("../img/blog_detail/main_content_bg_1.png");
+    background-repeat: no-repeat;
+    background-position: right 10%, left 70%;
+}
+.blog_detail_main_content_col_1{
+    width: 73%;
+    padding-right: 38px;
+}
+.blog_detail_main_content_col_2{
+    width: 27%;
+    padding-top: 25%;
+}
+
+.blog_detail_off_today{
+    background-image: linear-gradient( to left, rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/blog_detail/off_today.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}

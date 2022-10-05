@@ -14,41 +14,46 @@
 
     <div style="padding-top: 150px;" class="container-fluid tctm_bg">
         <div class="container tctm">
-                <div class="text-center">
-                    <div class="content_title">
-                        Travelers Capture The Moment
-                    </div>
+            <div class="text-center">
+                <div class="content_title">
+                    Travelers Capture The Moment
+                </div>
 
-                    <div class="content_context col-7 mx-auto" style="padding: 50px 0 60px 0;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                <div class="content_context col-7 mx-auto" style="padding: 50px 0 60px 0;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+            </div>
+
+            <div class="row" style="padding-bottom: 150px">
+
+                <div class="col-sm-12 col-lg-4 pb-4 ">
+                    <div class="text-center gallery_img_1">
+                        <div class="gallery_bg_overlay"></div>
+                        <img class="img-fluid h-100 w-100" src="img/our_gallery/tctm_img_1.png">
+
+                        <div class="gallery_img_context col-8">
+                            <h4 class="pb-3" style="font-size: 24px; font-weight: 600">Istanbul - Turki</h4>
+                            <p style="font-size: 18px; font-weight: 400">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row" style="padding-bottom: 150px">
-
-                    <div class="col-sm-12 col-lg-4 pb-4">
-                        <div class="gallery_img_1">
-                            <h3>Istanbul - Turki</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
+                <div class="col-sm-12 col-lg-8 text-center">
+                    <div class="row">
+                        <img class="img-fluid col-lg-6 pb-4" src="img/our_gallery/tctm_img_2.png">
+                        <img class="img-fluid col-lg-6 pb-4" src="img/our_gallery/tctm_img_3.png">
+                        <img class="img-fluid col-12 pb-4" src="img/our_gallery/tctm_img_4.png">
                     </div>
-
-                    <div class="col-sm-12 col-lg-8 text-center">
-                        <div class="row">
-                            <img class="img-fluid col-lg-6 pb-4" src="img/our_gallery/tctm_img_2.png">
-                            <img class="img-fluid col-lg-6 pb-4" src="img/our_gallery/tctm_img_3.png">
-                            <img class="img-fluid col-12 pb-4" src="img/our_gallery/tctm_img_4.png">
-                        </div>
-                    </div>
-
-                    <img class="img-fluid pb-4 col-sm-12 col-lg-6 text-center" src="img/our_gallery/tctm_img_5.png">
-
-                    <img class="img-fluid pb-4 col-sm-12 col-lg-6 text-center" src="img/our_gallery/tctm_img_6.png">
                 </div>
+
+                <img class="img-fluid pb-4 col-sm-12 col-lg-6 text-center" src="img/our_gallery/tctm_img_5.png">
+
+                <img class="img-fluid pb-4 col-sm-12 col-lg-6 text-center" src="img/our_gallery/tctm_img_6.png">
+            </div>
         </div>
     </div>
 
-    <div class="container-fluid our_gallery_offer_off_today d-flex align-items-center">
+    <div class="container-fluid our_gallery_off_today d-flex align-items-center">
         <div class="container">
             <div class="d-flex flex-column">
                 <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>

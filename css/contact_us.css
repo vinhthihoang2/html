@@ -1,0 +1,32 @@
+.contact_us_main_banner_img{
+    background-image: linear-gradient(to bottom, rgba(80, 79, 79, 0.56), rgba(51, 51, 51, 0.7)), url("../img/contact_us/main_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    min-height: 750px;
+}
+
+.contact_us_main_content{
+    background-image: url("../img/blog_detail/main_content_bg.png"), url("../img/blog_detail/main_content_bg_1.png");
+    background-repeat: no-repeat;
+    background-position: right 10%, left bottom;
+}
+
+.map{
+    position: relative;
+}
+.map_position_icon{
+    position: absolute;
+    left: 64%;
+    top: 50%;
+}
+.contact_us_input{
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+}
+.contact_us_input::placeholder{
+    color:  #EA494E;
+    font-size: 18px;
+    font-weight: 600;
+}

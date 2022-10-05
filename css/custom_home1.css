@@ -1,20 +1,41 @@
 @font-face{
     font-family: Montserrat;
-    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    src: local(Montserrat);
+}
+@font-face{
+    font-family: "Open Sans";
+    src: local("Open Sans");
 }
 
 *{
-    font-family: Montserrat;
+    font-family: Montserrat, "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /*Start header*/
-.header_row-1{
+.header_nav_1{
     background-color: #EA494E;
-}
-.header_banner {
+    font-family: "Open Sans";
+    padding: 12px 0 13px 0;
+    min-height: 60px;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
+}
+.header_nav_2{
+    min-height: 120px;
+    color: #222222;
+}
+.header_nav_2 a{
+    text-decoration: none;
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+.header_nav_2 a:hover{
+    color: blue;
 }
 .header_menu_selector{
     color: #222222;

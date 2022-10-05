@@ -392,10 +392,10 @@
 
                     <div class="">
                         <div class="header_icon_nav ms-auto">
-                            <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                            <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                            <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                            <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
+                            <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                            <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                            <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                            <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                         </div>
                     </div>
                 </div>
