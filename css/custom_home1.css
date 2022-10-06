@@ -1,22 +1,48 @@
 @font-face{
     font-family: Montserrat;
-    src: local(Montserrat);
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 @font-face{
     font-family: "Open Sans";
-    src: local("Open Sans");
+    src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
-
-*{
-    font-family: Montserrat, "Open Sans", sans-serif;
-    padding: 0;
-    margin: 0;
+.text_title{
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 600;
+    color: #222222;
+}
+.text_content{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+}
+@media screen and (max-width: 768px) {
+    .text_title{
+        font-size: 38px;
+    }
+}
+.btn_explore_1{
+    background-color: #EA494E;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+.btn_explore_2{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777777;
+    border: none;
+    background: none;
 }
 
 /*Start header*/
 .header_nav_1{
     background-color: #EA494E;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     padding: 12px 0 13px 0;
     min-height: 60px;
     color: #FFFFFF;
@@ -24,45 +50,38 @@
     font-weight: 600;
 }
 .header_nav_2{
-    min-height: 120px;
     color: #222222;
 }
 .header_nav_2 a{
     text-decoration: none;
     color: #222222;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 .header_nav_2 a:hover{
     color: blue;
 }
-.header_menu_selector{
-    color: #222222;
-    padding-right: 40px;
-    text-decoration: none;
-}
 /*End header*/
 
 /*Start home1*/
-.main_content {
-    background-color: #F9F9F9;
+.main_background {
+    background-color: #F2F2F2;
 }
-.main_content_1_title{
+.main_content_title{
     font-size: 72px;
     font-weight: 600;
     color: #222222;
 }
-.main_content_1_context{
-    font-size: 18px;
-    font-weight: 400;
+@media screen and (max-width: 768px) {
+    .main_content_title{
+        font-size: 48px;
+    }
 }
-.btn_explore{
-    background-color: #EA494E;
-    color: #FFFFFF;
+.main_content_context{
+    font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
-    border: none;
 }
 .demo_travel{
     text-decoration: none;
@@ -70,92 +89,52 @@
     font-size: 18px;
     font-weight: 400;
 }
-.main_content_1_bg{
-    background-image: url("../img/Home1/main_content_bg.png");
-    background-repeat: no-repeat;
-    background-position: 590px 30px;
+@media screen and (min-width: 1200px){
+    .home_main_content_bg{
+        background-image: url("../img/Home1/main_content_bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
-.main_content_1_img{
-    background-image: url("../img/Home1/main_content_img.png");
-    background-repeat: no-repeat;
-    height: 536px;
-    width: 429px;
-    margin: 7% 19%;
-}
-.main_content_1_search{
-    background-color: #EBEBEB;
-}
-.main_content_1_search .btn {
+.btn_search button {
     background: #EA494E;
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-    margin-top: 27px;
-    border-radius: unset;
+    border: none;
+    font-family: Montserrat;
 }
-.main_content_1_search .row-cols-5 .d-flex .py-2::placeholder {
-    font-size: 18px;
-    font-weight: 500;
-    color: #777777;
+.home_input_form{
+    background-color: #EBEBEB;
 }
-.main_content_1_search .row-cols-5 .d-flex p{
+.home_input_form_detail{
+    font-family: Montserrat;
     font-size: 18px;
     font-weight: 600;
     color: #EA494E;
 }
-.main_content_1_search .row-cols-5 .d-flex .py-2 {
-    background: #E0E0E0;
+.home_input_form input{
+    background-color: #E0E0E0;
     border: none;
 }
-.tpd_bg {
-    background-image: url("../img/Home1/tpd_bg.png");
-    background-repeat: no-repeat;
-    background-position: right 200px;
-}
-.tpd_gallery_special{
-    background-image: linear-gradient(to bottom, rgba(26, 26, 26, 0.1), rgba(64, 64, 64, 0.8)), url("../img/Home1/tpd_img_1.png");
-    background-repeat: no-repeat;
-}
-.tpd_gallery_special_title{
-    font-size: 24px;
-    font-weight: 600;
-    color: #FFFFFF;
-}
-.tpd_gallery_special_context{
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-.tpd_title{
-    font-size: 54px;
-    font-weight: 600;
-
-}
-.tpd_explore{
-    text-decoration: none;
+.home_input_form input::placeholder {
+    font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     color: #777777;
-    border: none;
-    background-color: #F9F9F9;
 }
-.tpd_rate{
-    font-size: 18px;
-    color: #FFFFFF;
+
+.home_tpd_bg {
+    background-image: url("../img/Home1/tpd_bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
 }
-.about_us_title{
-    font-size: 54px;
-    font-weight: 600;
-}
+
 .ptp_bg{
     background-image: url("../img/Home1/ptp_bg.png");
     background-repeat: no-repeat;
     background-position: 12% 67%;
     padding-bottom: 150px;
-}
-.ptp_title{
-    font-size: 54px;
-    font-weight: 600;
 }
 .ptp_cols .col-4{
     padding: 0 20px;
@@ -185,29 +164,19 @@
     font-size: 18px;
     font-weight: 400;
 }
-.ptp_book_now{
-    border: none;
-    background: none;
-}
-.bf{
-    background-color: #E5E5E5;
-    background-image: url("../img/Home1/desert.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    width: auto;
-    height: 694px;
-}
-.bf_list{
+
+.home_bf_context{
+    font-family: Montserrat;
     font-size: 28px;
     font-weight: 500;
-    color:#777777;
-    list-style: inside;
+    color: #777777;
 }
-.bf_title{
-    font-size: 54px;
-    font-weight: 600;
+.home_bf_list_style{
+    color: #777777;
+    font-size: medium;
 }
-.services {
+
+.home_our_services {
     background-image: url("../img/Home1/services_bg.png");
     background-repeat: no-repeat;
     background-position: right top;
@@ -231,10 +200,7 @@
     font-size: 18px;
     font-weight: 400;
 }
-.stp_title {
-    font-size: 54px;
-    font-weight: 600;
-}
+
 .stp_img_1{
     background-image: url("../img/Home1/promo_img_1.png");
     height: 45vh;

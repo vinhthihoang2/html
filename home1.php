@@ -1,150 +1,151 @@
 
-<main class="main_content">
-    <div class="container main_content_1">
-        <div class="d-flex flex-wrap main_content_1_bg">
-            <div class="col-6 main_content_1_context align-self-center py-5">
-                <div class="main_content_1_title">
-                    Fun <span style="color: #EA494E;">Vacation</span> Pefect Location
+<main class="main_background">
+    <div class="container-fluid px-0 home_main_content">
+        <div class="container home_main_content_bg">
+            <div class="row" style="padding: 160px 0 120px 0">
+                <div class="col-12 col-md-6 text-center text-md-start d-flex flex-column justify-content-evenly">
+                    <div class="main_content_title col-md-10 py-3">
+                        Fun<span style="color: #EA494E;"> Vacation </span>Pefect Location
+                    </div>
+
+                    <div class="main_content_context col-md-9 pe-lg-3 py-3">
+                        <div class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque facilisis. Morbi commodo.</div>
+                    </div>
+
+                    <div class="d-flex py-3">
+                        <button class="btn_explore_1 py-3  col-6 col-lg-4">Explore Now<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                        <a href="#" class="demo_travel d-flex align-items-center justify-content-center col-6 col-lg-4">
+                            <img class="img-fluid me-2" src="img/Home1/Vector.png">
+                            <div>Demo Travel</div>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="main_content_1_context py-5">
-                    <p class="col-9 pe-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque facilisis. Morbi commodo.</p>
-                </div>
-
-                <div class="d-flex">
-                    <button class="btn_explore py-3 px-4 me-5">Explore Now<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                    <a href="#" class="demo_travel d-flex align-items-start pb-0 align-items-center">
-                        <img class="me-2" src="img/Home1/Vector.png">
-                        <div>Demo Travel</div>
-                    </a>
+                <div class="col-md-6 d-none d-md-flex justify-content-center">
+                    <img class="img-fluid" src="img/Home1/main_content_img.png">
                 </div>
             </div>
 
-            <div class="col-6 py-5">
-                <div class="main_content_1_img"></div>
-            </div>
-
-            <div class="col-12 main_content_1_search mx-auto my-5">
-                <div class="row-cols-5 d-flex justify-content-center align-items-center py-3 px-5 my-3">
-                    <div class="d-flex flex-column">
-                        <p>Find Your Attractions*<p>
-                            <input class="py-2 px-1" type="text" placeholder="Enter Destination...">
-                    </div>
-                    <div class="d-flex flex-column">
-                        <p>Your Email*<p>
-                            <input class="py-2 px-1" type="email" placeholder="your@gmail.com">
-                    </div>
-                    <div class="d-flex flex-column">
-                        <p>Departure*<p>
-                            <input class="py-2 px-1" type="text" placeholder="mm/dd/yy">
-                    </div>
-                    <div class="d-flex flex-column">
-                        <p>Arrivals*<p>
-                            <input class="py-2 px-1" type="text" placeholder="mm/dd/yy">
-                    </div>
-                    <div class="d-flex flex-column">
-                        <div class="btn">Search</div>
-                    </div>
+            <div class="home_input_form row row-cols-lg-5 row-cols-1 text-center py-5 px-5">
+                <div class="align-self-end align-self-xl-center col">
+                    <div class="home_input_form_detail text-center text-lg-start py-3">Find Your Attractions*</div>
+                    <input class="col-6 col-lg-12 py-3" type="text" placeholder="Enter Destination...">
+                </div>
+                <div class="align-self-end align-self-xl-center col">
+                    <div class="home_input_form_detail text-center text-lg-start py-3">Your Email*</div>
+                    <input class="col-6 col-lg-12 py-3" type="text" placeholder="your@gmail.com">
+                </div>
+                <div class="align-self-end align-self-xl-center col">
+                    <div class="home_input_form_detail text-center text-lg-start py-3">Departure*</div>
+                    <input class="col-6 col-lg-12 py-3" type="text" placeholder="dd/mm/yyyy">
+                </div>
+                <div class="align-self-end align-self-xl-center col">
+                    <div class="home_input_form_detail text-center text-lg-start py-3">Arrivals*</div>
+                    <input class="col-6 col-lg-12 py-3" type="text" placeholder="dd/mm/yyyy">
+                </div>
+                <div class="btn_search mt-auto col pt-5">
+                    <button class="col-6 col-lg-12 py-3 align-self-center">Search</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid tpd_bg">
-        <div class="container main_content_tpd py-5 my-5">
-            <div class="d-flex">
-                <div class="col tpd_title">Top Popular  Destination</div>
-                <button class="col-2 tpd_explore text-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+    <div class="container-fluid home_tpd_bg">
+        <div class="container main_content_tpd py-5 my-5 px-0">
+            <div class="row row-cols-2">
+                <div class="col-12 col-lg-9 text_title">Top Popular  Destination</div>
+
+                <a class="col-12 col-lg-3 btn_explore_2 text-start text-lg-end align-self-center text_content">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></a>
             </div>
 
-            <div class="gallery pt-5">
-                <div class="col d-flex">
-                    <div class="col-4 row tpd_gallery_special align-items-end">
-                        <div class="col-11 mx-auto">
-                            <div class="tpd_gallery_special_title pb-4">Sea Island - Australian</div>
-                            <div class="tpd_gallery_special_context pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras.</div>
-                            <div class="d-flex align-items-center tpd_rate pb-5">
-                                <img src="img/Home1/rate_star.png"><span style="font-weight: 600">4.8/5</span><div> (56 reviews)</div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 pb-4 ">
+                    <div class="text-start gallery_img_1">
+                        <div class="gallery_bg_overlay"></div>
+                        <img class="img-fluid h-100 w-100" src="./img/Home1/tpd_img_1.png">
+                        <div class="gallery_img_context col-10">
+                            <div class="" style="font-size: 24px; font-weight: 600">Sea Island - Australian</div>
+
+                            <div class="py-3" style="font-size: 18px; font-weight: 400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras.</div>
+
+                            <div class="d-flex align-items-center tpd_rate mb-5">
+                                <img src="img/Home1/rate_star.png"><div style="font-size: 18px"><span style="font-weight: 600">4.8/5</span> (56 reviews)</div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-8 px-0">
-                            <div class="col-6 d-flex">
-                                <img class="img-fluid ps-5" src="img/Home1/tpd_img_2.png">
-                                <img class="img-fluid ps-5" src="img/Home1/tpd_img_3.png">
-                            </div>
-                            <img class="img-fluid pt-5 ps-5" src="img/Home1/tpd_img_4.png">
+                <div class="col-sm-12 col-lg-8 text-center">
+                    <div class="row">
+                        <img class="img-fluid col-lg-6 pb-4" src="img/Home1/tpd_img_2.png">
+                        <img class="img-fluid col-lg-6 pb-4" src="img/Home1/tpd_img_3.png">
+                        <img class="img-fluid col-12 pb-4" src="img/Home1/tpd_img_4.png">
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="container py-5 about_us">
-        <div class="d-flex flex-wrap pb-5">
-            <div class="col-6 pe-5">
-                <img class="img-fluid" src="img/Home1/about_us_img.png">
-            </div>
+    <div class="container-fluid about_us">
+        <div class="container px-0">
+            <div class="row row-cols-2">
+                <div class="col-12 col-lg-6 pe-lg-5">
+                    <img class="img-fluid h-100" src="img/Home1/about_us_img.png">
+                </div>
 
-            <div class="col-6 my-auto ps-5">
-                <div class="about_us_title">About Us</div>
-                <div class="about_us_context col-11 pe-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu.</div>
-                <button class="btn_explore py-3 px-4 me-5">Explore Now<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="col-12 col-lg-6 align-self-lg-center text-center text-lg-start">
+                    <div class="text_title">About Us</div>
+                    <div class="text_content col-lg-11 py-3 py-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas purus tincidunt cursus maecenas. Sed lacus bibendum quam morbi augue eu.</div>
+                    <button class="btn_explore_1 py-3 px-4">Explore Now<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                </div>
             </div>
         </div>
-
-
     </div>
 
     <div class="container-fluid ptp_bg">
-        <div class="container ptp">
-            <div class="row">
-                <div class="ptp_title col text-center">Popular Tour Package</div>
-            </div>
-
+        <div class="container px-0 ptp">
             <div class="row pt-3 mt-5 mb-5 pb-3">
+                <div class="text_title text-center">Popular Tour Package</div>
                 <div class="ptp_title_1 col">Beach</div>
-                <button class="col-2 tpd_explore text-end align-middle col">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                <button class="col-3 btn_explore_2 text-end align-middle col">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
-            <div class="row d-flex ptp_cols">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_beach_img_1.png">
+            <div class="row row-cols-1">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_beach_img_1.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_beach_img_2.png">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_beach_img_2.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_beach_img_3.png">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_beach_img_3.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
@@ -152,45 +153,45 @@
 
             <div class="row pt-3 mt-5 mb-5 pb-3">
                 <div class="ptp_title_1 col">Mountain</div>
-                <button class="col-2 tpd_explore text-end align-middle col">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                <button class="col-2 btn_explore_2 text-end align-middle col">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
-            <div class="row d-flex ptp_cols">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_moutain_1.png">
+            <div class="row row-cols-1">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_moutain_1.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_moutain_2.png">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_moutain_2.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/Home1/ptp_moutain_3.png">
+                <div class="col-12 col-lg-4">
+                    <img class="img-fluid w-100" src="img/Home1/ptp_moutain_3.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
@@ -199,48 +200,50 @@
     </div>
 
     <div class="container-fluid bf">
-        <div class="container">
-            <div class="row">
-                    <div class="py-5">
-                        <div class="bf_title py-4">Berlibur Features</div>
-                        <ul class="bf_menu mb-4">
-                            <li class="bf_list py-3">Vacation Convenience</li>
-                            <li class="bf_list py-3">Residential Dedicated</li>
-                            <li class="bf_list py-3">Available Consumption</li>
-                            <li class="bf_list py-3">24/7 Support</li>
-                        </ul>
-                        <button class="btn_explore py-3 px-4 mt-4">See More<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                    </div>
+        <div class="row row-cols-1 bg-info">
+            <div class="col-12 col-lg-6 px-0 py-5 d-flex flex-column justify-content-center" style="background-color: #E5E5E5">
+                <div class="col-10 mx-auto">
+                    <div class="text_title">Berlibur Features</div>
+                    <ul class="py-3">
+                        <li class="home_bf_list_style py-3"><div class="home_bf_context">Vacation Convenience</div></li>
+                        <li class="home_bf_list_style py-3"><div class="home_bf_context">Residential Dedicated</div></li>
+                        <li class="home_bf_list_style py-3"><div class="home_bf_context">Available Consumption</div></li>
+                        <li class="home_bf_list_style py-3"><div class="home_bf_context">24/7 Support</div></li>
+                    </ul>
+                    <button class="btn_explore_1 py-3 px-4">See More<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                </div>
             </div>
+
+            <div class="col-12 col-lg-6 px-0"><img src="img/Home1/desert.png" class="img-fluid w-100 h-100"></div>
         </div>
     </div>
 
-    <div class="services container-fluid">
-        <div class="services_title text-center py-5 my-5">Our Services</div>
+    <div class="home_our_services container-fluid">
+        <div class="text_title text-center py-5 my-5">Our Services</div>
 
-        <div class="row d-flex text-center pb-5">
-            <div class="col">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center">
+            <div class="col py-5">
                 <div><img src="img/Home1/services_car.png"></div>
                 <div class="services_select_title pt-5 pb-4">Car Rent</div>
                 <div class="services_select_context col-8 mx-auto mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                 <button class="btn_services_1 py-3 px-4 mt-4">See More<img class="ps-2" src="img/Home1/arrow_1.png"></button>
             </div>
 
-            <div class="col">
+            <div class="col py-5">
                 <div><img src="img/Home1/services_equipment.png"></div>
                 <div class="services_select_title pt-5 pb-4">Equipment Rent</div>
                 <div class="services_select_context col-8 mx-auto mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                 <button class="btn_services_1 py-3 px-4 mt-4">See More<img class="ps-2" src="img/Home1/arrow_1.png"></button>
             </div>
 
-            <div class="col">
+            <div class="col py-5">
                 <div><img src="img/Home1/services_driver.png"></div>
                 <div class="services_select_title pt-5 pb-4">Tour Driver</div>
                 <div class="services_select_context col-8 mx-auto mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                 <button class="btn_services_1 py-3 px-4 mt-4">See More<img class="ps-2" src="img/Home1/arrow_1.png"></button>
             </div>
 
-            <div class="col">
+            <div class="col py-5">
                 <div><img src="img/Home1/services_guide.png"></div>
                 <div class="services_select_title pt-5 pb-4">Tour Guide</div>
                 <div class="services_select_context col-8 mx-auto mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
@@ -252,18 +255,18 @@
     <div class="container-fluid stp_bg">
         <div class="container stp">
             <div class="row pt-5 mt-5">
-                <div class="stp_title col text-center pt-5 my-5">Special Today’s Promo</div>
+                <div class="text_title col text-center pt-5 my-5">Special Today’s Promo</div>
             </div>
 
-            <div class="row d-flex stp_cols">
-                <div class="col-4">
-                    <div class="stp_img_1 d-flex align-items-end">
-                        <div class="stp_sale_off d-flex align-items-baseline pb-4">
-                            <div class="stp_sale_percent px-4 ms-3">25%</div>
-                            <div class="stp_sale_status">OFF</div>
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col-12 col-lg-4">
+                        <div style="position: relative" class="stp_sale_off d-flex align-items-baseline pb-4">
+                            <img class="img-fluid w-100" src="img/Home1/promo_img_1.png">
+                            <div style="position: absolute; bottom: 15%" class="d-flex align-items-baseline">
+                                <div class="stp_sale_percent px-4 ms-3">25%</div>
+                                <div class="stp_sale_status">OFF</div>
+                            </div>
                         </div>
-                    </div>
-
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
@@ -276,13 +279,14 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="stp_img_2 d-flex align-items-end">
-                        <div class="stp_sale_off d-flex align-items-baseline pb-4">
-                            <div class="stp_sale_percent px-4 ms-3">25%</div>
-                            <div class="stp_sale_status">OFF</div>
+                <div class="col-12 col-lg-4">
+                        <div style="position: relative" class="stp_sale_off d-flex align-items-baseline pb-4">
+                            <img class="img-fluid w-100" src="img/Home1/promo_img_2.png">
+                            <div style="position: absolute; bottom: 15%" class="d-flex align-items-baseline">
+                                <div class="stp_sale_percent px-4 ms-3">25%</div>
+                                <div class="stp_sale_status">OFF</div>
+                            </div>
                         </div>
-                    </div>
 
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
@@ -296,13 +300,14 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="stp_img_3 d-flex align-items-end">
-                        <div class="stp_sale_off d-flex align-items-baseline pb-4">
-                            <div class="stp_sale_percent px-4 ms-3">25%</div>
-                            <div class="stp_sale_status">OFF</div>
+                <div class="col-12 col-lg-4">
+                        <div style="position: relative" class="stp_sale_off d-flex align-items-baseline pb-4">
+                            <img class="img-fluid w-100" src="img/Home1/promo_img_3.png">
+                            <div style="position: absolute; bottom: 15%" class="d-flex align-items-baseline">
+                                <div class="stp_sale_percent px-4 ms-3">25%</div>
+                                <div class="stp_sale_status">OFF</div>
+                            </div>
                         </div>
-                    </div>
 
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
@@ -322,9 +327,9 @@
 
     <div class="container-fluid gallery">
         <div class="container main_content_tpd py-5 my-5">
-            <div class="d-flex">
-                <div class="col-5 gallery_title">Our Gallery</div>
-                <div class="col-7 gallery_context mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
+            <div class="row row-cols-1">
+                <div class="col-12 col-lg-5 gallery_title">Our Gallery</div>
+                <div class="col-12 col-lg-7 gallery_context mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
             </div>
 
             <div class="gallery pt-5 my-5 pb-5">
