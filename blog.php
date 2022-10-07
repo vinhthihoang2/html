@@ -17,9 +17,9 @@
             <div class="content_title text-center" style="font-weight: 700; padding-bottom: 60px">Today’s Blog</div>
 
             <div class="row">
-                <div class="col-lg-6 col-md-12" style="padding-bottom: 150px">
+                <div class="col-lg-6 col-12" style="padding-bottom: 150px">
                     <div class="text-center">
-                        <img class="img-fluid" src="img/blog/content_img_1.png">
+                        <img class="img-fluid w-100" src="img/blog/content_img_1.png">
                         <div class="d-flex" style="padding: 50px 0 22px 0;">
                             <div class="blog_date text-start">Alex S - May 13, 2022</div>
                             <img class="blog_like_btn ms-auto" src="img/blog/like_heart.png">
@@ -29,9 +29,9 @@
 
                 </div>
 
-                <div class="col-lg-6 col-md-12" style="padding-bottom: 150px">
+                <div class="col-lg-6 col-12" style="padding-bottom: 150px">
                     <div class="text-center">
-                        <img class="img-fluid" src="img/blog/content_img_2.png">
+                        <img class="img-fluid w-100" src="img/blog/content_img_2.png">
                         <div class="d-flex" style="padding: 50px 0 22px 0;">
                             <div class="blog_date text-start">Alex S - May 13, 2022</div>
                             <img class="blog_like_btn ms-auto" src="img/blog/like_heart.png">
@@ -41,9 +41,9 @@
 
                 </div>
 
-                <div class="col-lg-6 col-md-12" style="padding-bottom: 150px">
+                <div class="col-lg-6 col-12" style="padding-bottom: 150px">
                     <div class="text-center">
-                        <img class="img-fluid" src="img/blog/content_img_3.png">
+                        <img class="img-fluid w-100" src="img/blog/content_img_3.png">
                         <div class="d-flex" style="padding: 50px 0 22px 0;">
                             <div class="blog_date text-start">Alex S - May 13, 2022</div>
                             <img class="blog_like_btn ms-auto" src="img/blog/like_heart.png">
@@ -53,9 +53,9 @@
 
                 </div>
 
-                <div class="col-lg-6 col-md-12" style="padding-bottom: 150px">
+                <div class="col-lg-6 col-12" style="padding-bottom: 150px">
                     <div class="text-center">
-                        <img class="img-fluid" src="img/blog/content_img_4.png">
+                        <img class="img-fluid w-100" src="img/blog/content_img_4.png">
                         <div class="d-flex" style="padding: 50px 0 22px 0;">
                             <div class="blog_date text-start">Alex S - May 13, 2022</div>
                             <img class="blog_like_btn ms-auto" src="img/blog/like_heart.png">
@@ -99,18 +99,20 @@
 
     <div class="container-fluid blog_off_today d-flex align-items-center">
         <div class="container">
-            <div class="d-flex flex-column">
-                <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
-                <div class="about_us_off_today_context my-5 col-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
-                <button class="btn_explore py-3 px-4 col-2 my-5">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                <div class="mt-5" style="font-size: 24px;font-weight: 600;">Our Social Media</div>
-                <div class="pt-3">
-                    <div class="header_icon_nav ms-auto">
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>

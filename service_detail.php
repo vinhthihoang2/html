@@ -43,15 +43,15 @@
                     <div>Max 8 People</div>
                 </div>
                 <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
-                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_2.png"></div>
                     <div>Seat Adjustment</div>
                 </div>
                 <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
-                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_3.png"></div>
                     <div>AC Available</div>
                 </div>
                 <div style="font-size: 24px; font-weight: 600;color: #222222;" class="col-lg-3 col-md-6">
-                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_1.png"></div>
+                    <div><img style="padding: 60px 0;" src="img/service_detail/car_rental_icon_4.png"></div>
                     <div>Mini Wifi</div>
                 </div>
             </div>
@@ -60,18 +60,20 @@
 
     <div class="container-fluid service_detail_off_today d-flex align-items-center">
         <div class="container">
-            <div class="d-flex flex-column">
-                <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
-                <div class="about_us_off_today_context my-5 col-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
-                <button class="btn_explore py-3 px-4 col-2 my-5">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                <div class="mt-5" style="font-size: 24px;font-weight: 600;">Our Social Media</div>
-                <div class="pt-3">
-                    <div class="header_icon_nav ms-auto">
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>

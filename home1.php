@@ -51,20 +51,20 @@
     </div>
 
     <div class="container-fluid home_tpd_bg">
-        <div class="container main_content_tpd py-5 my-5 px-0">
-            <div class="row row-cols-2">
+        <div class="container main_content_tpd px-0" style="padding: 150px 0">
+            <div class="row" style="padding-bottom: 60px">
                 <div class="col-12 col-lg-9 text_title">Top Popular  Destination</div>
 
-                <a class="col-12 col-lg-3 btn_explore_2 text-start text-lg-end align-self-center text_content">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></a>
+                <a class="col-12 col-lg-3 btn_explore_2 text-start text-lg-end align-self-center pt-4">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></a>
             </div>
 
             <div class="row">
                 <div class="col-sm-12 col-lg-4 pb-4 ">
-                    <div class="text-start gallery_img_1">
-                        <div class="gallery_bg_overlay"></div>
+                    <div class="text-start gallery_img_1" style="position: relative">
+                        <div class="gallery_bg_overlay" style="position: absolute"></div>
                         <img class="img-fluid h-100 w-100" src="./img/Home1/tpd_img_1.png">
-                        <div class="gallery_img_context col-10">
-                            <div class="" style="font-size: 24px; font-weight: 600">Sea Island - Australian</div>
+                        <div class="gallery_img_context col-10" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%)">
+                            <div style="font-size: 24px; font-weight: 600">Sea Island - Australian</div>
 
                             <div class="py-3" style="font-size: 18px; font-weight: 400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras.</div>
 
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <div class="container-fluid about_us">
+    <div class="container-fluid home_about_us">
         <div class="container px-0">
             <div class="row row-cols-2">
                 <div class="col-12 col-lg-6 pe-lg-5">
@@ -104,7 +104,7 @@
 
     <div class="container-fluid ptp_bg">
         <div class="container px-0 ptp">
-            <div class="row pt-3 mt-5 mb-5 pb-3">
+            <div class="row home_ptp_title">
                 <div class="text_title text-center">Popular Tour Package</div>
                 <div class="ptp_title_1 col">Beach</div>
                 <button class="col-3 btn_explore_2 text-end align-middle col">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
@@ -329,50 +329,54 @@
         <div class="container main_content_tpd py-5 my-5">
             <div class="row row-cols-1">
                 <div class="col-12 col-lg-5 gallery_title">Our Gallery</div>
-                <div class="col-12 col-lg-7 gallery_context mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
+                <div class="col-12 col-lg-7 gallery_context mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
             </div>
 
-            <div class="gallery pt-5 my-5 pb-5">
-                <div class="col d-flex">
-                    <div class="col-4 row gallery_special align-items-end">
-                        <div class="col-11 mx-auto text-center">
-                            <div class="tpd_gallery_special_title pb-4">Istanbul - Turki</div>
-                            <div class="tpd_gallery_special_context pb-4 col-10 mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
+            <div class="row">
+                <div class="col-12 col-lg-4 pb-4">
+                    <div class="gallery_img_1 text-center">
+                        <div class="gallery_bg_overlay" style="position: absolute"></div>
+                        <img class="img-fluid h-100" src="img/Home1/gallery_img_1.png">
+                        <div class="gallery_img_context">
+                            <div style="font-size: 24px; font-weight: 600; color: #FFFFFF">Istanbul - Turki</div>
+                            <div style="font-size: 18px; font-weight: 400; color: #FFFFFF">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-8 px-0">
-                        <div class="col-6 d-flex">
-                            <img class="img-fluid ps-5" src="img/Home1/gallery_img_2.png">
-                            <img class="img-fluid ps-5" src="img/Home1/gallery_img_3.png">
-                        </div>
-                        <img class="img-fluid pt-5 ps-5" src="img/Home1/gallery_img_4.png">
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <img class="col-lg-6 col-12 img-fluid pb-4" src="img/Home1/gallery_img_2.png">
+                        <img class="col-lg-6 col-12 img-fluid pb-4" src="img/Home1/gallery_img_3.png">
+                        <img class="col-12 img-fluid pb-4" src="img/Home1/gallery_img_4.png">
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-2 mx-auto text-center pt-5 my-5">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
                     <img src="img/Home1/trianggle.png">
                     <div class="icon_context">Trianggle</div>
                 </div>
 
-                <div class="col-2 mx-auto text-center pt-5 my-5">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
                     <img src="img/Home1/aim_co.png">
                     <div class="icon_context">Aim Co</div>
                 </div>
 
-                <div class="col-2 mx-auto text-center pt-5 my-5">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
                     <img src="img/Home1/lookups.png">
                     <div class="icon_context">Lookups</div>
                 </div>
 
-                <div class="col-2 mx-auto text-center pt-5 my-5">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
                     <img src="img/Home1/world_tour.png">
                     <div class="icon_context">World Tour</div>
                 </div>
 
-                <div class="col-2 mx-auto text-center pt-5 my-5">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
                     <img src="img/Home1/uptravel.png">
                     <div class="icon_context">Uptravel</div>
                 </div>
@@ -380,29 +384,22 @@
         </div>
     </div>
 
-    <div class="container-fluid off_today">
+    <div class="container-fluid off_today d-flex align-items-center">
         <div class="container">
-            <div class="row off_today_content">
-                <div class="col d-flex flex-column">
-                    <div class="d-flex off_today_title_1">25%<div class="off_today_title_2">OFF Today’s!!</div></div>
-                    <div class="off_today_context py-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
-                    </div>
-
-                    <button class="btn_explore py-3 px-4 col-2 my-4">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-
-                    <div class="off_today_media my-3">
-                        Our Social Media
-                    </div>
-
-                    <div class="">
-                        <div class="header_icon_nav ms-auto">
-                            <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
-                            <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
-                            <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
-                            <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
-                        </div>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>
@@ -410,10 +407,10 @@
 
     <div class="container-fluid tour_guide">
         <div class="container">
-            <div class="tour_guide_title text-center py-5 my-5">With Professional Tour Guide </div>
+            <div class="content_title text-center py-5 my-5">With Professional Tour Guide </div>
 
-            <div class="row d-flex text-center pb-5">
-                <div class="col">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div><img class="img-fluid rounded-circle" src="img/Home1/guide_img_1.png"></div>
                     <div class="tour_guide_name pt-5">Johnatan F</div>
                     <div class="tour_guide_traveller col-8 mx-auto mb-4">Ex Traveller</div>
@@ -425,7 +422,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div><img class="img-fluid rounded-circle" src="img/Home1/guide_img_2.png"></div>
                     <div class="tour_guide_name pt-5">Johnatan F</div>
                     <div class="tour_guide_traveller col-8 mx-auto mb-4">Ex Traveller</div>
@@ -437,7 +434,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div><img class="img-fluid rounded-circle" src="img/Home1/guide_img_3.png"></div>
                     <div class="tour_guide_name pt-5">Johnatan F</div>
                     <div class="tour_guide_traveller col-8 mx-auto mb-4">Ex Traveller</div>
@@ -449,7 +446,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div><img class="img-fluid rounded-circle" src="img/Home1/guide_img_4.png"></div>
                     <div class="tour_guide_name pt-5">Johnatan F</div>
                     <div class="tour_guide_traveller col-8 mx-auto mb-4">Ex Traveller</div>
@@ -467,34 +464,34 @@
     <div class="container-fluid blog_bg pb-5">
         <div class="container blog">
             <div class="mt-5 text-center">
-                <div class="blog_title">New Our Blog Today</div>
-                <div class="blog_context col-7 mx-auto my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas maecenas.</div>
+                <div class="content_title">New Our Blog Today</div>
+                <div class="content_context col-8 mx-auto my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta urna, amet sed pharetra tellus. Ultrices vulputate egestas maecenas.</div>
             </div>
 
-            <div class="row d-flex stp_cols">
-                <div class="col-4 align-self-end">
-                    <img class="blog_img_1 img-fluid" src="img/Home1/blog_img_1.png">
+            <div class="row">
+                <div class="col-12 col-lg-4 align-self-end pb-5 pb-lg-0">
+                    <img class="blog_img_1 img-fluid w-100" src="img/Home1/blog_img_1.png">
                     <div>
                         <div class="blog_name_birth d-flex mt-3 pt-3">Alex S - May 13, 2022</div>
-                        <div class="blog_quotes mt-3 mb-5">Unforgettable Memories Are Vacations</div>
+                        <div class="blog_quotes my-3 mb-lg-5">Unforgettable Memories Are Vacations</div>
                         <button type="button" class="btn_blog_detail text-center px-4 py-3">See Detail<img class="ps-3 mb-1" src="img/Home1/arrow_1.png"></button>
                     </div>
                 </div>
 
-                <div class="col-4 align-self-end">
-                    <img class="blog_img_2 img-fluid" src="img/Home1/blog_img_2.png">
+                <div class="col-12 col-lg-4 align-self-end pb-5 pb-lg-0">
+                    <img class="blog_img_2 img-fluid w-100" src="img/Home1/blog_img_2.png">
                     <div>
                         <div class="blog_name_birth d-flex mt-3 pt-3">Morgan - May 13, 2022</div>
-                        <div class="blog_quotes mt-3 mb-5">Capture Your Vacation Moments For Memories</div>
+                        <div class="blog_quotes my-3 mb-lg-5">Capture Your Vacation Moments For Memories</div>
                         <button type="button" class="btn_blog_detail text-center px-4 py-3">See Detail<img class="ps-3 mb-1" src="img/Home1/arrow_1.png"></button>
                     </div>
                 </div>
 
-                <div class="col-4 align-self-end">
-                    <img class="blog_img_3 img-fluid" src="img/Home1/blog_img_3.png">
+                <div class="col-12 col-lg-4 align-self-end pb-5 pb-lg-0">
+                    <img class="blog_img_3 img-fluid w-100" src="img/Home1/blog_img_3.png">
                     <div>
                         <div class="blog_name_birth d-flex mt-3 pt-3">Alex S - May 13, 2022</div>
-                        <div class="blog_quotes mt-3 mb-5">Mountain Tourist Places Suitable for Couples</div>
+                        <div class="blog_quotes my-3 mb-lg-5">Mountain Tourist Places Suitable for Couples</div>
                         <button type="button" class="btn_blog_detail text-center px-4 py-3">See Detail<img class="ps-3 mb-1" src="img/Home1/arrow_1.png"></button>
                     </div>
                 </div>
@@ -505,19 +502,19 @@
             <div id="carouselExampleInterval" class="carousel slide pb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
+                        <div class="col-12 col-md-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
                             <img src="img/Home1/say_about_img_1.png">
-                            <div class="align-self-center">
+                            <div class="align-self-center ps-3">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
+                        <div class="col-12 col-md-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
-                            <img src="img/Home1/say_about_img_1.png">
+                            <img src="img/Home1/say_about_img_1.png ps-3">
                             <div class="align-self-center">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>
@@ -525,10 +522,10 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="col-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
+                        <div class="col-12 col-md-6 text-center mx-auto say_about_context px-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras pellentesque”</div>
                         <div class="d-flex justify-content-center py-5">
                             <img src="img/Home1/say_about_img_1.png">
-                            <div class="align-self-center">
+                            <div class="align-self-center ps-3">
                                 <div class="say_about_name">Anjas Claude</div>
                                 <div class="say_about_name_title">Traveller International</div>
                             </div>
@@ -544,7 +541,6 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
         </div>
     </div>
 </main>

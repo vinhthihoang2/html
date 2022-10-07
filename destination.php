@@ -14,137 +14,161 @@
         <div class="col-3"><img class="img-fluid about_us_banner_bg_right" src="img/about_us/banner_bg_right.png"></div>
     </div>
 
-    <div class="container-fluid" style="padding: 60px 0 134px 0;">
+    <div class="container-fluid destination_td" style="padding: 60px 0 134px 0;">
         <div class="container">
-            <div class="d-flex" style="padding-bottom: 44px">
+            <div class="row" style="padding-bottom: 44px">
                 <div class="col-lg-10 col-md-12" style="font-size: 54px; font-weight: 600; color: #222222;">Tour Destination</div>
-                <button style="background: #FFFFFF" class="col-lg-2 col-md-12 border-0 text-end">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                <button style="background: #FFFFFF" class="col-lg-2 col-md-12 border-0 text-start text-lg-end">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 py-3">
-                    <div class="destination_td_special align-items-end d-flex">
-                        <div class="col-8 mx-auto" style="padding-bottom: 77px">
-                            <div style="font-weight: 600; font-size: 24px">Sea Island - Australian</div>
-                            <div class="" style="padding: 25px 0 30px 0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras.
-                            </div>
-                            <div style="font-size: 18px"><img class="pe-3" src="img/Home1/rate_star.png"><span style="font-weight: 600">4.8/5</span> (56 reviews)</div>
+                <div class="col-12 col-lg-4 pb-4">
+                    <div class="gallery_img_1 text-center">
+                        <div class="gallery_bg_overlay" style="position: absolute"></div>
+                        <img class="img-fluid h-100 w-100" src="img/destination/td_img_1.png">
+                        <div class="gallery_img_context">
+                            <div style="font-size: 24px; font-weight: 600; color: #FFFFFF">Istanbul - Turki</div>
+                            <div style="font-size: 18px; font-weight: 400; color: #FFFFFF">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-8">
-                    <div class="row d-flex">
-                        <img class="col-lg-6 img-fluid py-3" src="img/destination/td_img_2.png">
-                        <img class="col-lg-6 img-fluid py-3" src="img/destination/td_img_3.png">
-                        <img class="col-lg-12 img-fluid py-3 mt-3" src="img/destination/td_img_4.png">
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <img class="col-lg-6 col-12 img-fluid pb-4" src="img/destination/td_img_2.png">
+                        <img class="col-lg-6 col-12 img-fluid pb-4" src="img/destination/td_img_3.png">
+                        <img class="col-12 img-fluid pb-4" src="img/destination/td_img_4.png">
                     </div>
                 </div>
 
-                <div class="col-lg-12">
+                <div class="col-12">
                     <div class="row">
-                        <img class="img-fluid col-lg-8 py-3" src="img/destination/td_img_5.png">
-                        <img class="img-fluid col-lg-4 py-3" src="img/destination/td_img_6.png">
+                        <img class="col-lg-8 col-12 img-fluid pb-4" src="img/destination/td_img_5.png">
+                        <img class="col-lg-4 col-12 img-fluid pb-4" src="img/destination/td_img_6.png">
                     </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
+                    <img src="img/Home1/trianggle.png">
+                    <div class="icon_context">Trianggle</div>
+                </div>
+
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
+                    <img src="img/Home1/aim_co.png">
+                    <div class="icon_context">Aim Co</div>
+                </div>
+
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
+                    <img src="img/Home1/lookups.png">
+                    <div class="icon_context">Lookups</div>
+                </div>
+
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
+                    <img src="img/Home1/world_tour.png">
+                    <div class="icon_context">World Tour</div>
+                </div>
+
+                <div class="col-12 col-lg-2 mx-auto text-center pt-5 my-5">
+                    <img src="img/Home1/uptravel.png">
+                    <div class="icon_context">Uptravel</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid ptp_bg">
+    <div class="container-fluid destination_rfy">
         <div class="container ptp">
+            <div class="text_title col">Recommended For You</div>
+
+            <div class="row pt-3 mt-5 mb-5 pb-3">
+                <div class="col-12 col-sm-8 ptp_title_1 col">Beach</div>
+                <button class="col-12 col-sm-4 btn_explore_2 text-start text-sm-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+            </div>
+
             <div class="row">
-                <div class="ptp_title col">Recommended For You</div>
-            </div>
-
-            <div class="row pt-3 mt-5 mb-5 pb-3">
-                <div class="ptp_title_1 col">Beach</div>
-                <button style="background-color: #FFFFFF" class="col-2 tpd_explore text-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
-            </div>
-
-            <div class="row d-flex ptp_cols">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_1.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_1.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_2.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_2.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_3.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_3.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row pt-3 mt-5 mb-5 pb-3">
-                <div class="ptp_title_1 col">Mountain</div>
-                <button style="background-color: #FFFFFF" class="col-2 tpd_explore text-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                <div class="col-12 col-sm-8 ptp_title_1 col">Mountain</div>
+                <button class="col-12 col-sm-4 btn_explore_2 text-start text-sm-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
             <div class="row d-flex ptp_cols">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_4.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_4.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_5.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_5.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/destination/rfy_img_6.png">
+                <div class="col-12 col-lg-4 py-5 py-lg-0">
+                    <img class="img-fluid w-100" src="img/destination/rfy_img_6.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
@@ -154,18 +178,20 @@
 
     <div class="container-fluid destination_off_today d-flex align-items-center">
         <div class="container">
-            <div class="d-flex flex-column">
-                <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
-                <div class="about_us_off_today_context my-5 col-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
-                <button class="btn_explore py-3 px-4 col-2 my-5">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                <div class="mt-5" style="font-size: 24px;font-weight: 600;">Our Social Media</div>
-                <div class="pt-3">
-                    <div class="header_icon_nav ms-auto">
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>

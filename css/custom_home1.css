@@ -130,6 +130,10 @@
     background-position: right center;
 }
 
+.home_about_us{
+    padding-bottom: 150px;
+}
+
 .ptp_bg{
     background-image: url("../img/Home1/ptp_bg.png");
     background-repeat: no-repeat;
@@ -201,18 +205,6 @@
     font-weight: 400;
 }
 
-.stp_img_1{
-    background-image: url("../img/Home1/promo_img_1.png");
-    height: 45vh;
-}
-.stp_img_2{
-    background-image: url("../img/Home1/promo_img_2.png");
-    height: 45vh;
-}
-.stp_img_3{
-    background-image: url("../img/Home1/promo_img_3.png");
-    height: 45vh;
-}
 .stp_sale_percent{
     font-size: 54px;
     font-weight: 600;
@@ -234,6 +226,7 @@
     font-size: 44px;
     font-weight: 700;
 }
+
 .gallery_img_special{
     background-image: url("../img/Home1/gallery_img_1.png");
     height: 80vh;
@@ -256,19 +249,18 @@
     background-image: linear-gradient(to bottom, rgba(26, 26, 26, 0.1), rgba(64, 64, 64, 0.8)), url("../img/Home1/gallery_img_1.png");
     background-repeat: no-repeat;
 }
+
 .icon_context{
     font-size: 34px;
     font-weight: 700;
     color: #777777;
 }
+
 .off_today{
     background-image: linear-gradient( rgba(26, 26, 26, 0.08), rgba(64, 64, 64, 0.8)), url("../img/Home1/off_today_bg.png");
-    height: 800px;
+    min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
-}
-.off_today_content{
-    padding-top: 152px;
 }
 .off_today_title_1 {
     font-size: 72px;
@@ -290,15 +282,11 @@
     font-weight: 600;
     color: #FFFFFF;
 }
+
 .tour_guide{
     background-image: url("../img/Home1/tour_guide_bg.png");
     background-repeat: no-repeat;
     background-position: right -180px;
-}
-.tour_guide_title{
-    font-size: 54px;
-    font-weight: 600;
-    color: #222222;
 }
 .tour_guide_name{
     font-size: 24px;
@@ -310,20 +298,11 @@
     font-weight: 600;
     color: #EA494E;
 }
+
 .blog_bg{
     background-image: url("../img/Home1/blog_bg.png");
     background-repeat: no-repeat;
     background-position: left 780px;
-}
-.blog_title{
-    font-size: 54px;
-    font-weight: 600;
-    color: #222222;
-}
-.blog_context{
-    font-size: 18px;
-    font-weight: 400;
-    color: #777777;
 }
 .blog_name_birth{
     font-size: 18px;

@@ -14,12 +14,12 @@
 
     <div class="container-fluid blog_detail_main_content px-0">
         <div class="container px-0" style="padding: 150px 0">
-            <div class="content_title col-7 mx-sm-auto mx-lg-0">
+            <div class="text_title text-center text-lg-start col-lg-8">
                 Unforgettable Memories Are Vacations
             </div>
 
-            <div class="d-flex">
-                <div class="blog_detail_main_content_col_1">
+            <div class="row">
+                <div class="blog_detail_main_content_col_1 col-12 col-lg-9">
                     <div class="blog_detail_main_content_1">
                         <img style="padding: 60px 0;" class="img-fluid w-100" src="img/blog_detail/content_img_1.png">
 
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="blog_detail_main_content_col_2">
+                <div class="blog_detail_main_content_col_2 col-12 col-lg-3">
                     <div class="text-center">
                         <div style="font-size: 34px; font-weight: 600; color: #222222; padding-bottom: 30px">About Author</div>
                         <div style="font-size: 18px; font-weight: 400; color: #777777">
@@ -60,22 +60,22 @@
 
 
                     <div style="padding-top: 160px">
-                        <div style="font-size: 34px; font-weight: 600; color: #222222; padding-bottom: 60px">Latest Post</div>
-                        <div class="d-flex align-items-center pb-5">
+                        <div class="text-center text-lg-start" style="font-size: 34px; font-weight: 600; color: #222222; padding-bottom: 60px">Latest Post</div>
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pb-5">
                             <img class="img-fluid" src="img/blog_detail/author_img_1.png">
                             <div class="ps-3">
                                 <div class="pb-3 col-10" style="font-size: 18px;font-weight: 600;color: #222222">Traveling with Family is Fun</div>
                                 <div style="font-size: 18px;font-weight: 400;color: #777777">Alex S - May 13, 2022  </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center pb-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pb-5">
                             <img class="img-fluid" src="img/blog_detail/author_img_2.png">
                             <div class="ps-3">
                                 <div class="pb-3 col-10" style="font-size: 18px;font-weight: 600;color: #222222">What Makes A Holiday Fun</div>
                                 <div style="font-size: 18px;font-weight: 400;color: #777777">Alex S - May 13, 2022  </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center pb-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pb-5">
                             <img class="img-fluid" src="img/blog_detail/author_img_3.png">
                             <div class="ps-3">
                                 <div class="pb-3 col-10" style="font-size: 18px;font-weight: 600;color: #222222">Traveling with Family is Fun</div>
@@ -89,22 +89,22 @@
 
         <div class="container px-0" style="padding-bottom: 150px">
             <div class="text-center" style="font-size: 54px; font-weight: 700; color: #222222; padding-bottom: 60px">Related News</div>
-            <div class="row row-cols-4">
+            <div class="row row-cols-1 row-cols-lg-4 text-center">
                 <div>
                     <img class="img-fluid" src="img/blog_detail/new_img_1.png">
-                    <div style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">Traveling with Family is Fun</div>
+                    <div class="pb-3" style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">Traveling with Family is Fun</div>
                 </div>
                 <div>
                     <img class="img-fluid" src="img/blog_detail/new_img_2.png">
-                    <div style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">What Makes A Holiday Fun</div>
+                    <div class="pb-3" style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">What Makes A Holiday Fun</div>
                 </div>
                 <div>
                     <img class="img-fluid" src="img/blog_detail/new_img_3.png">
-                    <div style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">Traveling with Family is Fun</div>
+                    <div class="pb-3" style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">Traveling with Family is Fun</div>
                 </div>
                 <div>
                     <img class="img-fluid" src="img/blog_detail/new_img_4.png">
-                    <div style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">What Makes A Holiday Fun</div>
+                    <div class="pb-3" style="font-size: 34px; font-weight: 600; color: #222222; padding-top: 40px">What Makes A Holiday Fun</div>
                 </div>
             </div>
         </div>
@@ -112,18 +112,20 @@
 
     <div class="container-fluid blog_detail_off_today d-flex align-items-center">
         <div class="container">
-            <div class="d-flex flex-column">
-                <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
-                <div class="about_us_off_today_context my-5 col-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
-                <button class="btn_explore py-3 px-4 col-2 my-5">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                <div class="mt-5" style="font-size: 24px;font-weight: 600;">Our Social Media</div>
-                <div class="pt-3">
-                    <div class="header_icon_nav ms-auto">
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>

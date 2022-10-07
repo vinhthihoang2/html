@@ -19,6 +19,13 @@
     font-weight: 600;
     color: #222222;
 }
+@media screen and (max-width: 576px) {
+    .service_quality_title{
+        font-size: 38px;
+        font-weight: 600;
+        color: #222222;
+    }
+}
 .service_quality_list{
     font-size: 18px;
     font-weight: 400;

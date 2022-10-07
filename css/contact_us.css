@@ -14,12 +14,7 @@
 }
 
 .map{
-    position: relative;
-}
-.map_position_icon{
-    position: absolute;
-    left: 64%;
-    top: 50%;
+    height: 650px;
 }
 .contact_us_input{
     background-color: rgba(229, 229, 229, 1);

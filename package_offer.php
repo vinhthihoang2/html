@@ -14,179 +14,177 @@
 
     <div style="padding-top: 150px;" class="container-fluid ptp_bg">
         <div class="container ptp">
-            <div class="">
-                <div class="ptp_title">Package Offer</div>
-            </div>
+            <div class="text_title">Package Offer</div>
 
-            <div class="row row-cols-sm-2" style="padding: 60px 0;" >
-                <div class="ptp_title_1 col-lg-9">Beach</div>
-                <button style="background-color: #FFFFFF" class="col-lg-3 text-start tpd_explore text-sm-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+            <div class="row" style="padding: 60px 0;" >
+                <div class="ptp_title_1 col-lg-9 col-12">Beach</div>
+                <button style="background-color: #FFFFFF" class="col-lg-3 col-12 text-start text-lg-end btn_explore_2 align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
             <div class="row d-flex ptp_cols" style="padding-bottom: 60px" >
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_1.png">
+                <div class="col-12 col-lg-4 pb-lg-0 pb-5">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_1.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_2.png">
+                <div class="col-12 col-lg-4 pb-lg-0 pb-5">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_2.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_3.png">
+                <div class="col-12 col-lg-4 pb-lg-0 pb-5">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_3.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row d-flex ptp_cols" style="padding-bottom: 90px" >
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_4.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_4.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_5.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_5.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_6.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_6.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row row-cols-sm-2" style="padding: 60px 0;" >
-                <div class="ptp_title_1 col-lg-9">Mountain</div>
-                <button style="background-color: #FFFFFF" class="col-lg-3 text-start tpd_explore text-sm-end align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                <div class="ptp_title_1 col-lg-9 col-12">Mountain</div>
+                <button style="background-color: #FFFFFF" class="col-lg-3 col-12 text-start text-lg-end btn_explore_2 align-middle">Explore Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
             </div>
 
             <div class="row d-flex ptp_cols" style="padding-bottom: 60px">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_7.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_7.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_8.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_8.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_9.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_9.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row d-flex ptp_cols">
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_10.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_10.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$120/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_11.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_11.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$99/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="img-fluid" src="img/package_offer/po_img_12.png">
+                <div class="col-12 col-lg-4 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/package_offer/po_img_12.png">
                     <div>
                         <div class="ptp_address d-flex mt-3 pt-3">Green Land<div class="ms-auto ptp_rate"><img class="pe-3" src="img/Home1/rate_star.png">4.8/5</div></div>
                         <div class="ptp_address_1 mt-3">Canbbera - Australian</div>
                         <div class="d-flex align-items-baseline mt-4 pt-3">
                             <div class="ptp_price">$85/</div>
                             <div class="ptp_person">Person</div>
-                            <button class="ms-auto ptp_book_now">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
+                            <button class="ms-auto btn_explore_2">Book Now<img class="ps-2" src="img/Home1/arrow_2.png"></button>
                         </div>
                     </div>
                 </div>
@@ -196,18 +194,20 @@
 
     <div class="container-fluid package_offer_off_today d-flex align-items-center">
         <div class="container">
-            <div class="d-flex flex-column">
-                <div class="about_us_off_today_title"><span style="color: #FF5023">25%</span> OFF Today’s!! </div>
-                <div class="about_us_off_today_context my-5 col-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras</div>
-                <button class="btn_explore py-3 px-4 col-2 my-5">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
-                <div class="mt-5" style="font-size: 24px;font-weight: 600;">Our Social Media</div>
-                <div class="pt-3">
-                    <div class="header_icon_nav ms-auto">
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/instagram_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/facebook_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/youtube_icon.png"></a>
-                        <a class="header_icon me-2" href="#"><img src="img/Home1/twitter_icon.png"></a>
-                    </div>
+            <div class="" >
+                <div class="off_today_title_1">25%<span class="off_today_title_2"> OFF Today’s!!</span></div>
+                <div class="off_today_context py-5 col-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu condimentum mattis vitae sem convallis sit cras
+                </div>
+                <button class="btn_explore_1 py-3 px-4 my-4 d-inline-block">Contact Us<img class="ps-2" src="img/Home1/arrow_1.png"></button>
+                <div class="off_today_media my-3">
+                    Our Social Media
+                </div>
+                <div class="header_icon_nav">
+                    <a class="header_icon me-2" href=""><img src="img/Home1/instagram_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/facebook_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/youtube_icon.png"></a>
+                    <a class="header_icon me-2" href=""><img src="img/Home1/twitter_icon.png"></a>
                 </div>
             </div>
         </div>
